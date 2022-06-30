@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    background-image: radial-gradient(rbga(0, 150, 0, 0.75), black 120%);
+    color: #00ff66;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -35px;
+}
+ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+ul li:last-child {
+    padding-right: 10px;
+}
+.header {
+    padding: 10px 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
