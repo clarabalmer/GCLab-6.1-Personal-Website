@@ -1,8 +1,17 @@
 body {
+    width: 960px;
     background-color: black;
     background-image: radial-gradient(rbga(0, 150, 0, 0.75), black 120%);
     color: #00ff66;
     font-family: "Helvetica", "Arial", sans-serif;
+}
+table {
+    border-width: 1px;
+    border-color: #00ff66;
+    border-collapse: collapse;
+}
+.firstLine td {
+    border-bottom: 2px #00ff66; 
 }
 ul {
     text-align: right;
@@ -16,6 +25,9 @@ ul li {
 ul li:last-child {
     padding-right: 10px;
 }
+.tableLabels {
+    font-weight: bolder;
+}
 .header {
     padding: 10px 16px;
 }
@@ -23,4 +35,9 @@ ul li:last-child {
     position: fixed;
     top: 0;
     width: 100%;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        width: 320px;
+    }
 }
